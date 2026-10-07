@@ -1,0 +1,27 @@
+flask==3.0.0
+flask-cors==4.0.0
+# google-genai is OPTIONAL — only needed if cloud escalation is enabled.
+# Install separately: pip install google-genai==0.8.0
+python-dotenv==1.0.0
+numpy==1.26.3
+torch==2.2.0
+aiohttp==3.9.1
+requests==2.31.0
+redis==5.0.1
+scikit-learn==1.4.0
+flask-session==0.8.0
+cryptography==44.0.1
+psutil>=5.9.0
+# Step 31 — local offline voice pipeline (install after base deps)
+faster-whisper==1.1.1
+piper-tts>=1.0.0
+# Sovereign Workspace — semantic search, automation, indexing
+lancedb>=0.5.0
+sentence-transformers>=2.6.0
+pyarrow>=14.0.0
+watchdog>=4.0.0
+pydantic>=2.0.0
+# Optional — document extraction
+pypdf>=3.0.0
+pdfplumber>=0.10.0
+python-docx>=1.0.0
